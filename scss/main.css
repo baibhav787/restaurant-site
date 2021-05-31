@@ -1,0 +1,265 @@
+.heading {
+  display: block;
+  font-size: 3.3rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 3rem;
+  font-family: "Akaya Telivigala", cursive;
+  color: #d61c22;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.card-text,
+.welcome-text {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+}
+
+.text-type-lg {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.text-type3 {
+  font-size: 3rem;
+}
+
+.custom-btn {
+  text-transform: uppercase;
+  border: 2px solid #666666;
+  border-radius: 10px;
+}
+
+.custom-btn:hover {
+  border: 2px solid #d61c22;
+}
+
+.btn:hover {
+  color: #d61c22;
+}
+
+.menu-heading {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #d61c22;
+  font-weight: 600;
+}
+
+td {
+  border: none;
+}
+
+tr td:nth-child(1) {
+  font-size: 1.2rem;
+}
+
+tr td:nth-child(2) {
+  color: #d61c22;
+  font-size: 1.2rem;
+}
+
+.p-text {
+  color: #5f5f5f;
+}
+
+.c-text {
+  color: #0a0a0a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#hero-1 {
+  background: url(/img/hero-1.jpg) center center/cover;
+}
+
+#hero-2 {
+  background: url(/img/hero-2.jpg) center center/cover;
+}
+
+#hero-3 {
+  background: url(/img/hero-3.jpg) center center/cover;
+}
+
+.carousel-item {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.hero-layout::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.52);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #f3fcff;
+  text-align: center;
+}
+
+.title span {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 3.4rem;
+  display: block;
+  text-align: center;
+}
+
+.title h1 {
+  font-family: "Poppins", sans-serif;
+  font-family: 800;
+  font-size: 5rem;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.welcome-block {
+  min-width: 320px;
+}
+
+#discover-img {
+  background: url(/img/fixed-bg.jpg) center center/cover;
+  height: 35vh;
+  background-attachment: fixed;
+}
+
+.discover {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #f3fcff;
+}
+
+.card,
+.card-img-top {
+  border-radius: 10px;
+}
+
+.card img {
+  height: 250px;
+}
+
+.card {
+  border: none;
+}
+
+#drinks {
+  background: url(/img/drinks.jpg) center center/cover;
+}
+
+#stater {
+  background: url(/img/stater.jpg) center center/cover;
+}
+
+.review {
+  height: 55vh;
+  background-color: none;
+}
+
+.client-img {
+  height: auto;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.carousel-indicators [data-bs-target] {
+  border: 2px solid red;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: red;
+}
+
+.fill-btn {
+  font-size: 1.2rem;
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.fill-btn:hover {
+  background-color: #ec1d25;
+  color: #ffffff;
+}
+
+.col-auto h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.form-control:focus {
+  border: 2px solid #ec1d25;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.list-item {
+  list-style: none;
+  color: #dfdfdf;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.list-item:hover {
+  background-color: #dfdfdf;
+  color: #111111;
+}
+/*# sourceMappingURL=main.css.map */
