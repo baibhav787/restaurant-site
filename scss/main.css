@@ -84,15 +84,15 @@ tr td:nth-child(2) {
 }
 
 #hero-1 {
-  background-image: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-1.jpg) center center/cover;
+  background: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-1.jpg) center center/cover;
 }
 
 #hero-2 {
-  background-image: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-2.jpg) center center/cover;
+  background: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-2.jpg) center center/cover;
 }
 
 #hero-3 {
-  background-image: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-3.jpg) center center/cover;
+  background: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-3.jpg) center center/cover;
 }
 
 .carousel-item {
