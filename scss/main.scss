@@ -83,16 +83,13 @@ tr td:nth-child(2) {
 }
 // Hero section
 #hero-1 {
-  background: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-1.jpg)
-    center center/ cover;
+  background: url(../img/hero-1.jpg) center center/ cover;
 }
 #hero-2 {
-  background: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-2.jpg)
-    center center/ cover;
+  background: url(../img/hero-2.jpg) center center/ cover;
 }
 #hero-3 {
-  background: url(https://baibhav787.github.io/restaurant-site.github.io/img/hero-3.jpg)
-    center center/ cover;
+  background: url(../img/hero-3.jpg) center center/ cover;
 }
 .carousel-item {
   height: 100vh;
@@ -140,7 +137,7 @@ tr td:nth-child(2) {
 
 // discover section
 #discover-img {
-  background: url(/img/fixed-bg.jpg) center center / cover;
+  background: url(../img/fixed-bg.jpg) center center / cover;
   height: 35vh;
   background-attachment: fixed;
 }
@@ -163,12 +160,6 @@ tr td:nth-child(2) {
   border: none;
 }
 //menu section
-#drinks {
-  background: url(/img/drinks.jpg) center center / cover;
-}
-#stater {
-  background: url(/img/stater.jpg) center center / cover;
-}
 
 //review
 .review {
@@ -177,7 +168,7 @@ tr td:nth-child(2) {
 }
 .client-img {
   height: auto;
-  width: 200px;
+  width: 150px;
   position: absolute;
   left: 50%;
   top: 10%;
